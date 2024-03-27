@@ -1,0 +1,29 @@
+h1{
+    text-align:center;
+    color: teal;
+}
+#mountain_lake{
+    display:block;
+    margin:auto;
+    width:30%;
+    border:5px solid black;
+}
+#hero{
+    display:block;
+    margin:auto;
+    border: 5px solid teal;
+    width:30%;
+}
+
+#isaacPageImg1
+{
+  display:block;
+  margin:auto;
+  width:40%;
+  border:5px solid yellow;
+}
+p{
+    margin:auto;
+    width:30em;
+    text-align:center;
+}
