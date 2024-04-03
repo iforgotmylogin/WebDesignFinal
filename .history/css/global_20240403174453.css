@@ -1,5 +1,4 @@
 .container{
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
     justify-content: center;
     top: 0px;
@@ -12,16 +11,10 @@
 }
 
 .container h1{
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 400%;
-    color: #eee;
+    color: white;
     text-transform: uppercase;
     text-align: center;
     margin: 250px 0 auto;
-}
-
-.container h2{
-    margin: 15px 0 auto;
-    text-align: uppercase;
-    text-align: center;
-    color:#eee;
 }
