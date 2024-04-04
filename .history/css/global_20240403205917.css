@@ -1,6 +1,5 @@
 .hero_image{
     position: absolute;
-    z-index: 1;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
     justify-content: center;
@@ -29,6 +28,6 @@
 }
 .weenar{
     position: relative;
-    z-index: 2;
+    z-index: 1;
     width: 100px;
 }
