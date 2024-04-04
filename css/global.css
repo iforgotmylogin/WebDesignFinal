@@ -27,8 +27,21 @@
     text-align: center;
     color:#eee;
 }
-.weenar{
-    position: relative;
-    z-index: 2;
-    width: 100px;
+
+h1.global{
+    text-align: center;
+}
+
+#usrReview_1{
+    outline: 2px solid red; /*This is for "debugging" where the div is and how it's behaving*/
+
+    padding: 30px;
+}
+
+#userPfp{
+    float: left;
+    max-width: 90%;
+    width: 200px;
+    margin-right: 10px; /* adds some spacing between the image and the text*/
+
 }
