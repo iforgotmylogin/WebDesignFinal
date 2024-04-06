@@ -1,6 +1,6 @@
 .hero_image{
     position: absolute;
-    z-index: 1;
+    /*z-index: 1;*/ /*This needs to be removed for the fade to work*/
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
     justify-content: center;
@@ -44,4 +44,31 @@ h1.global{
     width: 200px;
     margin-right: 10px; /* adds some spacing between the image and the text*/
 
+}
+
+#main-bookingImg1{
+  display: inline-block;
+  width: 400px;
+  padding: 50px;
+  position: relative;
+  z-index: 1;
+  bottom: 100px;
+}
+
+#main-bookingImg2{
+    display: inline-block;
+    width: 400px;
+    padding: 50px;
+    position: relative;
+    z-index: 1;
+    bottom: 100px;
+}
+
+#main-bookingImg3{
+    display: inline-block;
+    width: 400px;
+    padding: 50px;
+    position: relative;
+    z-index: 1;
+    bottom: 100px;
 }
