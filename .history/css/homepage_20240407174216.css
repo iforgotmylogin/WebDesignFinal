@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    position:relative;
+    width: 100%;
+    height: auto;
+    margin: 240px auto;
+    display: flex;
+}
+.box{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background:#eee;
+    text-align: center;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+
+}

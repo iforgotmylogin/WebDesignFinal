@@ -1,0 +1,10 @@
+.container{
+    position:relative;
+    width: 1200px;
+    height: 300px;
+    margin: 240px auto;
+}
+.box{
+    position: relative;
+    width: calc(400px - 3px);
+}
