@@ -1,7 +1,9 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .hero_image{
     position: absolute;
-    /*z-index: 1;*/ /*This needs to be removed for the fade to work*/
-    font-family: Arial, Helvetica, sans-serif;
+    z-index: 1;
     margin: 0 auto;
     justify-content: center;
     top: 0px;
