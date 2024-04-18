@@ -34,16 +34,66 @@ h1.global{
     text-align: center;
 }
 
-#usrReview_1{
-    outline: 2px solid red; /*This is for "debugging" where the div is and how it's behaving*/
 
-    padding: 30px;
-}
-
-#userPfp{
+#userPfp-right{
     float: left;
-    max-width: 90%;
+    max-width: 90%px;
     width: 200px;
-    margin-right: 10px; /* adds some spacing between the image and the text*/
-
+    padding: 5%;    
+    margin-bottom: 20px;
 }
+
+#usrReview-right {   
+    display: flex;
+    align-items: flex-start; /* Align items to the start of the cross axis (top) */
+    justify-content: center; /* Center items horizontally */
+}
+
+#review-booking-right{
+    display: block;
+    max-width: 200px;
+    width: 200px;
+    margin-right: 10px; /*adds some spacing between the image and the text*/
+    text-align: center;
+}
+
+ #review-text-right{
+    padding-left: 10px;
+}
+
+#review-text #rev-footnote{
+    font-size: 0.9em !important;
+    font-style: italic !important;
+}
+
+
+
+
+
+
+#userPfp-left {
+    float: right;
+    max-width: 200px;
+    width: 200px;
+    padding: 5%;
+    margin-bottom: 20px;
+    margin-left: 10px; /* Add some spacing between the image and the text */
+  }
+  
+  #usrReview-left {
+    display: flex;
+    align-items: flex-start; /* Align items to the start of the cross axis (top) */
+    justify-content: center; /* Center items horizontally */
+  }
+  
+  #review-booking-left {
+    display: block;
+    max-width: 200px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  #review-text {
+    padding: 10px; /* Add some spacing between the text and the image */
+  }
+  
