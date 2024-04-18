@@ -9,6 +9,10 @@ footer{
 }
 .bottom{
     display:flex;
+    margin-top: 30px;
+}
+.bottom p {
+    margin-top: 10px;
 }
 .col{
     padding: 15px;
@@ -30,4 +34,7 @@ footer{
 }
 .w-70{
     width: 70%;
+}
+.rightFooter{
+    margin-top: 15px;
 }
