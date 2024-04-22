@@ -66,6 +66,25 @@ h1.global{
     font-style: italic !important;
 }
 
+#review-bubble {
+    border-radius: 45px;
+    padding: 10px;
+    outline: 5px solid lightgrey;
+    background-color: white;
+    display: block; /* Change display to block to allow margin auto */
+    max-width: 90%; /* Add a max-width to prevent overflow */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+    margin: 0 auto; /* Center horizontally by setting left and right margins to auto */
+    margin-top: 6%;
+}
+
+#reviews-body{
+    background-image: url("../images/pexels-markusspiske-175407.jpg");
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+}
+
 
 
 
