@@ -115,4 +115,23 @@ h1.global{
   #review-text {
     padding: 10px; /* Add some spacing between the text and the image */
   }
+
+  #rev-booking-link{
+    outline: 3px solid teal;
+    background-color: rgb(240, 235, 235);
+    padding: 15px;
+    border-radius: 15px;
+  }
+
+  #review-intro {
+    text-align: center;
+    background-color: white;
+    padding: 2%;
+    outline:  6px solid lightgrey;
+  }
+
+  #intro-container{
+    padding-top: 3%;
+  }
+  
   
