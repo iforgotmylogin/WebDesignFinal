@@ -59,8 +59,8 @@
     background-color: teal;
     color: white;
     font-weight: bold;
-    width: 400px;
-    height: 100px;
+    width: 300px; /*Scale this for button width*/
+    height: 70px; /*Scale this for button height*/
     margin-top: 20px;
     font-size: 20px;
     border: none;

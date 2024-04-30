@@ -44,7 +44,7 @@ h1.global {
 }
 
 #usrReview-right {  
-    padding-top: 2%; 
+    padding-top: 3%; 
     display: flex;
     align-items: flex-start; /* Align items to the start of the cross axis (top) */
     justify-content: center; /* Center items horizontally */
@@ -62,9 +62,9 @@ h1.global {
     padding-left: 10px;
 }
 
-#review-text #rev-footnote {
-    font-size: 0.9em !important;
-    font-style: italic !important;
+#intro-text {
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 #review-bubble {
@@ -99,6 +99,7 @@ h1.global {
   }
   
   #usrReview-left {
+    padding-top: 3%; 
     display: flex;
     align-items: flex-start; /* Align items to the start of the cross axis (top) */
     justify-content: center; /* Center items horizontally */
@@ -135,10 +136,11 @@ h1.global {
 
   #review-intro {
     text-align: center;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.7); /* last value for opacity */
     padding: 2%;
     outline:  6px solid lightgrey;
   }
+  
 
   #intro-container {
     padding-top: 3%;

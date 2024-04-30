@@ -97,3 +97,9 @@
 .merch{
     margin-top:30px;
 }
+
+#overlap{
+    position: relative;
+    margin-top: -100px; /* Adjust this value to control the overlap */
+    z-index: 2; /* Ensure the small images appear on top of the hero image */
+}
